@@ -1,0 +1,26 @@
+header {
+	background: #033860;
+	padding: 10px 0px;
+	margin-bottom: 50px;
+	.flex {
+		align-items: center;
+		justify-content: space-between;
+	}
+	.logo {
+		display: block;
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: #ffffff;
+	}
+	nav {
+		display: flex;
+		a {
+			display: block;
+			padding: 25px;
+			color: #78c3fb;
+			&:hover {
+				color: lighten(#78c3fb, 15%);
+			}
+		}
+	}
+}

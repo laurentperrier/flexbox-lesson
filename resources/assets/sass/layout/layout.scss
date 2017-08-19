@@ -1,0 +1,20 @@
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+}
+
+main {
+	margin-right: 50px;
+	flex-grow: 1;
+}
+
+aside {
+	padding: 25px;
+	background: rgba(#000000, 0.03);
+	width: 300px;
+	flex-shrink: 0;
+}
